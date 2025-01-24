@@ -6,210 +6,381 @@
 <title>Profilo NonVale09</title>
 <style>
 body {
-  font-family: sans-serif;
-  background-color: #f0f8ff; /* Azzurro chiaro */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
+font-family: sans-serif;
+background-color: #f0f8ff; /* Azzurro chiaro */
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
 }
 
 .container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
-  text-align: center;
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+max-width: 600px;
+text-align: center;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: white;
+font-size: 2em;
+margin-bottom: 10px;
+color: white;
 }
 
 .info {
-  margin-bottom: 20px;
+margin-bottom: 20px;
 }
 
 .info img {
-  width: 150px; /* Immagine più grande */
-  height: 150px;
-  border-radius: 50%;
-  margin: 20px auto; /* Centrata */
-  display: block;
+width: 150px; /* Immagine più grande */
+height: 150px;
+border-radius: 50%;
+margin: 20px auto; /* Centrata */
+display: block;
 }
 
 .info-text {
-  font-size: 14px;
-  line-height: 1.5;
-  color: white;
+font-size: 14px;
+line-height: 1.5;
+color: white;
 }
 
 .info-text p {
-  margin: 5px 0;
+margin: 5px 0;
 }
 
 .social-icons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
 }
 
 .social-icons a {
-  display: inline-block;
-  margin: 0 10px;
-  padding: 10px;
-  border-radius: 50%;
-  background-color: #eee;
-  color: #333;
-  text-decoration: none;
-  transition: background-color 0.3s;
+display: inline-block;
+margin: 0 10px;
+padding: 10px;
+border-radius: 50%;
+background-color: #eee;
+color: #333;
+text-decoration: none;
+transition: background-color 0.3s;
 }
 
 .social-icons a:hover {
-  background-color: #ddd;
+background-color: #ddd;
 }
 
 .section {
-  margin-bottom: 20px;
-  background-color: #4682B4; /* Blu */
-  padding: 15px;
-  border-radius: 10px;
-  color: white;
+margin-bottom: 20px;
+background-color: #4682B4; /* Blu */
+padding: 15px;
+border-radius: 10px;
+color: white;
 }
 
 .section h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+font-size: 1.5em;
+margin-bottom: 10px;
 }
 
-.section .link {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #f0f0f0;
-  color: #333;
-  text-decoration: none;
-  margin-top: 10px;
-  transition: background-color 0.3s;
+.section.link {
+display: flex;
+align-items: center;
+padding: 10px;
+border-radius: 5px;
+background-color: #f0f0f0;
+color: #333;
+text-decoration: none;
+margin-top: 10px;
+transition: background-color 0.3s;
 }
 
-.section .link:hover {
-  background-color: #e0e0e0;
+.section.link:hover {
+background-color: #e0e0e0;
 }
 
-.section .link .icon {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  background-size: cover;
+.section.link.icon {
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-size: cover;
 }
 
-.section .link .icon.discord {
-  background-image: url("https://i.imgur.com/U2oE26p.png"); /* Sostituisci con il tuo link di Imgur */
+.section.link.icon.discord {
+background-image: url("https://i.imgur.com/U2oE26p.png"); /* Sostituisci con il tuo link di Imgur */
 }
 
-.section .link .icon.tiktok {
-  background-image: url("https://i.imgur.com/6fQ6Z0n.png"); /* Sostituisci con il tuo link di Imgur */
+.section.link.icon.tiktok {
+background-image: url("https://i.imgur.com/6fQ6Z0n.png"); /* Sostituisci con il tuo link di Imgur */
+}
+.section.link.icon.instagram {
+background-image: url("https://i.imgur.com/k0qM72u.png"); /* Sostituisci con il tuo link di Imgur */
 }
 
-.section .link .icon.instagram {
-  background-image: url("https://i.imgur.com/k0qM72u.png"); /* Sostituisci con il tuo link di Imgur */
-}
-
-.section .details {
-  margin-left: 10px;
+.section.details {
+margin-left: 10px;
 }
 
 .footer {
-  text-align: center;
-  font-size: 12px;
-  color: #666;
-  margin-top: 20px;
+text-align: center;
+font-size: 12px;
+color: #666;
+margin-top: 20px;
 }
 
 .footer a {
-  color: #666;
-  text-decoration: none;
+color: #666;
+text-decoration: none;
 }
-</style>
+
+.icon {
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-color: #333;
+border-radius: 5px;
+text-align: center;
+line-height: 30px;
+color: #fff;
+}
+
+.icon-outer {
+position: relative;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-color: #333;
+border-radius: 5px;
+}
+
+.icon-inner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #fff;
+border-radius: 5px;
+}
+
+.copiato {
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+
+.telegram {
+background-image: url("https://i.imgur.com/Q3XjOWw"); /* Sostituisci con il tuo link di Imgur */
+}
+
+.telegram-outer {
+position: relative;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-color: #333;
+border-radius: 5px;
+}
+
+.telegram-inner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #fff;
+border-radius: 5px;
+}
+
+.telegram-copiato {
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+
+.discord {
+background-image: url("https://i.imgur.com/7BGl8bF.png"); /* Sostituisci con il tuo link di Imgur */
+}
+
+.discord-outer {
+position: relative;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-color: #333;
+border-radius: 5px;
+}
+
+.discord-inner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #fff;
+border-radius: 5px;
+}
+
+.discord-copiato {
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+
+.mail {
+background-image: url("https://i.imgur.com/EsqWrSE.png"); /* Sostituisci con il tuo link di Imgur */
+}
+
+.mail-outer {
+position: relative;
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 10px;
+background-color: #333;
+border-radius: 5px;
+}
+
+.mail-inner {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #fff;
+border-radius: 5px;
+}
+
+.mail-copiato {
+position: absolute;
+top: 30px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+
+<script>
+function copiaTesto() {
+var copiato = document.querySelector(".copiato");
+copiato.style.display = "block";
+setTimeout(function() {
+copiato.style.display = "none";
+}, 2000);
+}
+</script>
 </head>
 <body>
 <div class="container">
-  <img src="https://i.imgur.com/j9s624V.png" alt="Immagine di profilo">
-  <h1>★ NonVale09 ★</h1>
-  <div class="info">
-    <p>Italia</p>
-    <p>Valentina, 16(14/01/2009), Marche, Informatica</p>
-    <p>❤ Fidanzata con Ciuseppe (02/01/2025)</p>
-    <p>Fortnite-Minecraft-Genshin</p>
-    <p>-Zsnake-Ryze-Scatchit-Andre-Alee-laggio-Redz-Luke-Fede</p>
-    <p>💎 Best seller</p>
-  </div>
-  <div class="social-icons">
-    <a href="#" target="_blank"><i class="fa fa-envelope"></i> Email</a>
-    <a href="#" target="_blank"><i class="fa fa-discord"></i> Discord</a>
-    <a href="#" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
-  </div>
+<img src="https://i.imgur.com/j9s624V.png" alt="Immagine di profilo">
+<h1>★ NonVale09 ★</h1>
+<div class="info">
+<p>Italia</p>
+<p>Valentina, 16(14/01/2009), Marche, Informatica</p>
+<p>❤ Fidanzata con Ciuseppe (02/01/2025)</p>
+<p>Fortnite-Minecraft-Genshin</p>
+<p>-Zsnake-Ruze-Scatchit-Andre-Alee-laggio-Redz-Luke-Fede</p>
+<p>💎 Best seller</p>
+</div>
+<div class="social-icons">
+<a href="#" target="_blank"><i class="fa fa-envelope"></i> Email</a>
+<a href="#" target="_blank"><i class="fa fa-discord"></i> Discord</a>
+<a href="#" target="_blank"><i class="fa fa-telegram"></i> Telegram</a>
+</div>
 
-  <div class="section">
-    <h2>Founder su StarLity</h2>
-    <a href="https://discord.gg/2UTtqCqrCc" class="link" target="_blank">
-      <div class="icon discord"></div>
-      <div class="details">
-        discord.gg/2UTtqCqrCc
-      </div>
-    </a>
-  </div>
+<div class="section">
+<h2>Founder su StarLity</h2>
+<a href="https://discord.gg/2UTtqCqrCc" class="link" target="_blank">
+<div class="icon discord"></div>
+<div class="details">
+discord.gg/2UTtqCqrCc
+</div>
+</a>
+</div>
 
-  <div class="section">
-    <h2>Manager su Gaming 0.8</h2>
-    <a href="https://discord.gg/DWRxve79Cy" class="link" target="_blank">
-      <div class="icon discord"></div>
-      <div class="details">
-        discord.gg/DWRxve79Cy
-      </div>
-    </a>
-  </div>
+<div class="section">
+<h2>Manager su Gaming 0.8</h2>
+<a href="https://discord.gg/DWRxve79Cy" class="link" target="_blank">
+<div class="icon discord"></div>
+<div class="details">
+discord.gg/DWRxve79Cy
+</div>
+</a>
+</div>
 
-  <div class="section">
-    <h2>Mod su StaryMC</h2>
-    <a href="https://discord.gg/9kKgsaduca" class="link" target="_blank">
-      <div class="icon discord"></div>
-      <div class="details">
-        discord.gg/9kKgsaduca
-      </div>
-    </a>
-  </div>
+<div class="section">
+<h2>Mod su StaryMC</h2>
+<a href="https://discord.gg/9kKgsaduca" class="link" target="_blank">
+<div class="icon discord"></div>
+<div class="details">
+discord.gg/9kKgsaduca
+</div>
+</a>
+</div>
 
-  <div class="section">
-    <h2>TikTok</h2>
-    <a href="https://tiktok.com/@nonvale09" class="link" target="_blank">
-      <div class="icon tiktok"></div>
-      <div class="details">
-        tiktok.com/@nonvale09
-      </div>
-    </a>
-  </div>
+<div class="section">
+<h2>TikTok</h2>
+<a href="https://tiktok.com/@nonvale09" class="link" target="_blank">
+<div class="icon tiktok"></div>
+<div class="details">
+tiktok.com/@nonvale09
+</div>
+</a>
+</div>
 
-  <div class="section">
-    <h2>Instagram</h2>
-    <a href="https://instagram.com/xx_nonvale09_xx/" class="link" target="_blank">
-      <div class="icon instagram"></div>
-      <div class="details">
-        instagram.com/xx_nonvale09_xx/
-      </div>
-    </a>
-  </div>
+<div class="section">
+<h2>Instagram</h2>
+<a href="https://instagram.com/xx_nonvale09_xx/" class="link" target="_blank">
+<div class="icon instagram"></div>
+<div class="details">
+instagram.com/xx_nonvale09_xx/
+</div>
+</a>
+</div>
 
-  <div class="footer">
-    <p>create your own page</p>
-  </div>
+<div class="footer">
+<p>create your own page</p>
+</div>
+
+<div class="telegram" onclick="copiaTesto()">
+<div class="telegram-outer">
+<div class="telegram-inner">
+<i class="fa fa-telegram"></i>
+</div>
+</div>
+<div class="copiato" style="display: none;">Copia</div>
+</div>
+
+<div class="discord" onclick="copiaTesto()">
+<div class="discord-outer">
+<div class="discord-inner">
+<i class="fa fa-discord"></i>
+</div>
+</div>
+<div class="copiato" style="display: none;">Copia</div>
+</div>
+
+<div class="mail" onclick="copiaTesto()">
+<div class="mail-outer">
+<div class="mail-inner">
+<i class="fa fa-envelope"></i>
+</div>
+</div>
+<div class="copiato" style="display: none;">Copia</div>
+</div>
 </div>
 </body>
 </html>
